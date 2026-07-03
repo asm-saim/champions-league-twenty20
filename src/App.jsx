@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <div class="navbar bg-base-100 shadow-sm">
+      <div class="navbar bg-base-100 shadow-sm max-w-7xl mx-auto">
         <div class="flex-1">
           <a class="">
             <img className='w-15 h-15' src={navImg} alt="" />
