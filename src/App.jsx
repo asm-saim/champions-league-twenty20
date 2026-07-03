@@ -13,7 +13,13 @@ function App() {
     <>
       <div className='max-w-7xl mx-auto'>
         <Navbar></Navbar>
-
+        <div className='flex justify-between items-center border border-amber-700'>
+          <span>Available Players</span>
+          <div className='flex gap-4 '>
+            <button className='btn'>Available</button>
+            <button className='btn'>Selected(0)</button>
+          </div>
+        </div>
         <Suspense fallback={<span className="loading loading-dots loading-xl"></span>}>
           <AvailablePlayers fetchPlayers={fetchPlayers}></AvailablePlayers>
         </Suspense>
