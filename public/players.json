@@ -6,105 +6,105 @@
         "battingStyle": "Right-hand Batsman",
         "role": "Batsman",
         "rating": 9,
-        "price": "$1,850,000"
+        "price": "1,850,000"
     },
     {
-        "playerImage": "PLACEHOLDER_IMAGE_URL",
+        "playerImage": "https://i.ibb.co.com/N2Qvjyqn/images.png",
         "playerName": "AB de Villiers",
         "origin": "South Africa",
         "battingStyle": "Right-hand Batsman",
         "role": "Wicketkeeper",
         "rating": 9.5,
-        "price": "$2,000,000"
+        "price": "2,000,000"
     },
     {
-        "playerImage": "PLACEHOLDER_IMAGE_URL",
+        "playerImage": "https://i.ibb.co.com/N2Qvjyqn/images.png",
         "playerName": "Babar Azam",
         "origin": "Pakistan",
         "battingStyle": "Right-hand Batsman",
         "role": "Batsman",
         "rating": 9,
-        "price": "$1,900,000"
+        "price": "1,900,000"
     },
     {
-        "playerImage": "PLACEHOLDER_IMAGE_URL",
+        "playerImage": "https://i.ibb.co.com/N2Qvjyqn/images.png",
         "playerName": "Glenn Maxwell",
         "origin": "Australia",
         "battingStyle": "Right-hand Batsman",
         "role": "All-rounder",
         "rating": 8.5,
-        "price": "$1,600,000"
+        "price": "1,600,000"
     },
     {
-        "playerImage": "PLACEHOLDER_IMAGE_URL",
+        "playerImage": "https://i.ibb.co.com/N2Qvjyqn/images.png",
         "playerName": "Ben Stokes",
         "origin": "England",
         "battingStyle": "Left-hand Batsman",
         "role": "All-rounder",
         "rating": 9,
-        "price": "$1,800,000"
+        "price": "1,800,000"
     },
     {
-        "playerImage": "PLACEHOLDER_IMAGE_URL",
+        "playerImage": "https://i.ibb.co.com/N2Qvjyqn/images.png",
         "playerName": "Moeen Ali",
         "origin": "England",
         "battingStyle": "Left-hand Batsman",
         "role": "All-rounder",
         "rating": 8,
-        "price": "$1,200,000"
+        "price": "1,200,000"
     },
     {
-        "playerImage": "PLACEHOLDER_IMAGE_URL",
+        "playerImage": "https://i.ibb.co.com/N2Qvjyqn/images.png",
         "playerName": "Jimmy Neesham",
         "origin": "New Zealand",
         "battingStyle": "Left-hand Batsman",
         "role": "All-rounder",
         "rating": 7.5,
-        "price": "$950,000"
+        "price": "950,000"
     },
     {
-        "playerImage": "PLACEHOLDER_IMAGE_URL",
+        "playerImage": "https://i.ibb.co.com/N2Qvjyqn/images.png",
         "playerName": "Shakib Al Hasan",
         "origin": "Bangladesh",
         "battingStyle": "Left-hand Batsman",
         "role": "All-rounder",
         "rating": 8.5,
-        "price": "$1,400,000"
+        "price": "1,400,000"
     },
     {
-        "playerImage": "PLACEHOLDER_IMAGE_URL",
+        "playerImage": "https://i.ibb.co.com/N2Qvjyqn/images.png",
         "playerName": "Mushfiqur Rahim",
         "origin": "Bangladesh",
         "battingStyle": "Right-hand Batsman",
         "role": "Wicketkeeper",
         "rating": 7.5,
-        "price": "$900,000"
+        "price": "900,000"
     },
     {
-        "playerImage": "PLACEHOLDER_IMAGE_URL",
+        "playerImage": "https://i.ibb.co.com/N2Qvjyqn/images.png",
         "playerName": "David Warner",
         "origin": "Australia",
         "battingStyle": "Left-hand Batsman",
         "role": "Batsman",
         "rating": 8.5,
-        "price": "$1,600,000"
+        "price": "1,600,000"
     },
     {
-        "playerImage": "PLACEHOLDER_IMAGE_URL",
+        "playerImage": "https://i.ibb.co.com/N2Qvjyqn/images.png",
         "playerName": "Faf du Plessis",
         "origin": "South Africa",
         "battingStyle": "Right-hand Batsman",
         "role": "Wicketkeeper",
         "rating": 8,
-        "price": "$1,250,000"
+        "price": "1,250,000"
     },
     {
-        "playerImage": "PLACEHOLDER_IMAGE_URL",
+        "playerImage": "https://i.ibb.co.com/N2Qvjyqn/images.png",
         "playerName": "Virat Kohli",
         "origin": "India",
         "battingStyle": "Right-hand Batsman",
         "role": "Batsman",
         "rating": 9,
-        "price": "$1,900,000"
+        "price": "1,900,000"
     }
 ]
