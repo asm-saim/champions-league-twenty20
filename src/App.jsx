@@ -1,7 +1,11 @@
+import { Suspense } from 'react'
 import './App.css'
 import AvailablePlayers from './components/AvailablePlayers/AvailablePlayers'
 import Navbar from './components/Navbar/Navbar'
 import SelectedPlayers from './components/SelectedPlayers/SelectedPlayers'
+
+// Fetch data from the API
+const fetchPlayers = fetch('/players.json').then(res => res.json())
 
 function App() {
 
@@ -9,7 +13,10 @@ function App() {
     <>
       <div className='max-w-7xl mx-auto'>
         <Navbar></Navbar>
-        <AvailablePlayers></AvailablePlayers>
+
+        <Suspense fallback={<span className="loading loading-dots loading-xl"></span>}>
+          <AvailablePlayers fetchPlayers={fetchPlayers}></AvailablePlayers>
+        </Suspense>
         <SelectedPlayers></SelectedPlayers>
       </div>
 
