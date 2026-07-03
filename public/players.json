@@ -9,7 +9,7 @@
         "price": "1,850,000"
     },
     {
-        "playerImage": "https://i.ibb.co.com/N2Qvjyqn/images.png",
+        "playerImage": "https://i.ibb.co.com/tPcs8dz8/images-1.jpg",
         "playerName": "AB de Villiers",
         "origin": "South Africa",
         "battingStyle": "Right-hand Batsman",
@@ -18,16 +18,7 @@
         "price": "2,000,000"
     },
     {
-        "playerImage": "https://i.ibb.co.com/N2Qvjyqn/images.png",
-        "playerName": "Babar Azam",
-        "origin": "Pakistan",
-        "battingStyle": "Right-hand Batsman",
-        "role": "Batsman",
-        "rating": 9,
-        "price": "1,900,000"
-    },
-    {
-        "playerImage": "https://i.ibb.co.com/N2Qvjyqn/images.png",
+        "playerImage": "https://i.ibb.co.com/8DnZwbFB/max.jpg",
         "playerName": "Glenn Maxwell",
         "origin": "Australia",
         "battingStyle": "Right-hand Batsman",
@@ -36,7 +27,7 @@
         "price": "1,600,000"
     },
     {
-        "playerImage": "https://i.ibb.co.com/N2Qvjyqn/images.png",
+        "playerImage": "https://i.ibb.co.com/XZjSRCNZ/ben.jpg",
         "playerName": "Ben Stokes",
         "origin": "England",
         "battingStyle": "Left-hand Batsman",
@@ -45,25 +36,7 @@
         "price": "1,800,000"
     },
     {
-        "playerImage": "https://i.ibb.co.com/N2Qvjyqn/images.png",
-        "playerName": "Moeen Ali",
-        "origin": "England",
-        "battingStyle": "Left-hand Batsman",
-        "role": "All-rounder",
-        "rating": 8,
-        "price": "1,200,000"
-    },
-    {
-        "playerImage": "https://i.ibb.co.com/N2Qvjyqn/images.png",
-        "playerName": "Jimmy Neesham",
-        "origin": "New Zealand",
-        "battingStyle": "Left-hand Batsman",
-        "role": "All-rounder",
-        "rating": 7.5,
-        "price": "950,000"
-    },
-    {
-        "playerImage": "https://i.ibb.co.com/N2Qvjyqn/images.png",
+        "playerImage": "https://i.ibb.co.com/YB733BML/sakib.jpg",
         "playerName": "Shakib Al Hasan",
         "origin": "Bangladesh",
         "battingStyle": "Left-hand Batsman",
@@ -72,25 +45,7 @@
         "price": "1,400,000"
     },
     {
-        "playerImage": "https://i.ibb.co.com/N2Qvjyqn/images.png",
-        "playerName": "Mushfiqur Rahim",
-        "origin": "Bangladesh",
-        "battingStyle": "Right-hand Batsman",
-        "role": "Wicketkeeper",
-        "rating": 7.5,
-        "price": "900,000"
-    },
-    {
-        "playerImage": "https://i.ibb.co.com/N2Qvjyqn/images.png",
-        "playerName": "David Warner",
-        "origin": "Australia",
-        "battingStyle": "Left-hand Batsman",
-        "role": "Batsman",
-        "rating": 8.5,
-        "price": "1,600,000"
-    },
-    {
-        "playerImage": "https://i.ibb.co.com/N2Qvjyqn/images.png",
+        "playerImage": "https://i.ibb.co.com/Kpp4yj7h/fuf.jpg",
         "playerName": "Faf du Plessis",
         "origin": "South Africa",
         "battingStyle": "Right-hand Batsman",
@@ -99,12 +54,57 @@
         "price": "1,250,000"
     },
     {
-        "playerImage": "https://i.ibb.co.com/N2Qvjyqn/images.png",
+        "playerImage": "https://i.ibb.co.com/XxSPR64C/babar.jpg",
+        "playerName": "Babar Azam",
+        "origin": "Pakistan",
+        "battingStyle": "Right-hand Batsman",
+        "role": "Batsman",
+        "rating": 9,
+        "price": "1,900,000"
+    },
+    {
+        "playerImage": "https://i.ibb.co.com/HpkxVfVB/moien.jpg",
+        "playerName": "Moeen Ali",
+        "origin": "England",
+        "battingStyle": "Left-hand Batsman",
+        "role": "All-rounder",
+        "rating": 8,
+        "price": "1,200,000"
+    },
+    {
+        "playerImage": "https://i.ibb.co.com/hR6zXR4L/musi.jpg",
+        "playerName": "Mushfiqur Rahim",
+        "origin": "Bangladesh",
+        "battingStyle": "Right-hand Batsman",
+        "role": "Wicketkeeper",
+        "rating": 7.5,
+        "price": "900,000"
+    },
+    {
+        "playerImage": "https://i.ibb.co.com/hFrXHHzK/warner.jpg",
+        "playerName": "David Warner",
+        "origin": "Australia",
+        "battingStyle": "Left-hand Batsman",
+        "role": "Batsman",
+        "rating": 8.5,
+        "price": "1,600,000"
+    },
+    {
+        "playerImage": "https://i.ibb.co.com/5XggS3hL/Virat-Kohli.jpg",
         "playerName": "Virat Kohli",
         "origin": "India",
         "battingStyle": "Right-hand Batsman",
         "role": "Batsman",
         "rating": 9,
         "price": "1,900,000"
+    },
+    {
+        "playerImage": "https://i.ibb.co.com/TMRNfDRF/nisem.jpg",
+        "playerName": "Jimmy Neesham",
+        "origin": "New Zealand",
+        "battingStyle": "Left-hand Batsman",
+        "role": "All-rounder",
+        "rating": 7.5,
+        "price": "950,000"
     }
 ]
