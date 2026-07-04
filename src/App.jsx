@@ -29,7 +29,7 @@ function App() {
             <div className='flex text-base'>
               <button onClick={() => setToggle(true)} className={`btn rounded-l-lg border-none font-bold text-base ${toggle === true ? "bg-orange-500 text-black" : "'' text-white"}`}>Available</button>
               <button onClick={() => setToggle(false)} className={`btn rounded-r-lg border-none font-bold text-base ${toggle === false ? "bg-orange-500 text-black" :
-                "'' text-white"}`}>Selected(0)</button>
+                "'' text-white"}`}>Selected({purchasedPlayer.length})</button>
             </div>
           </div>
           {

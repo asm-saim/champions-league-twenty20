@@ -1,10 +1,14 @@
 // import React from 'react';
 
+import SelectedCards from "../SelectedCards/SelectedCards";
+
 const SelectedPlayers = ({ purchasedPlayer }) => {
     console.log("hello from selected section", purchasedPlayer)
     return (
         <div>
-            <h1>selected</h1>
+            {
+                purchasedPlayer.map(player => <SelectedCards player={player}></SelectedCards>)
+            }
         </div>
     );
 };
