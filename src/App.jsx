@@ -16,7 +16,7 @@ function App() {
   const [toggle, setToggle] = useState(true)
 
   // state declaration for calculation:
-  const [balance, setAvailableBalance] = useState(5000000)
+  const [balance, setAvailableBalance] = useState(100000000)
 
   // state declaration for selected section:
   const [purchasedPlayer, setPurchasedPlayer] = useState([])

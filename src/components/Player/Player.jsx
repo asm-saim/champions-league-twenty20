@@ -13,9 +13,15 @@ const Player = ({ player, setAvailableBalance, balance, purchasedPlayer, setPurc
             toast.error("Insufficient coins to proceed.", { theme: 'dark' });
             return;
         }
+        if (purchasedPlayer.length === 6) {
+            toast.error("6 players are already selected", { theme: 'dark' });
+            return;
+        }
         setSelected(true)
         setAvailableBalance(balance - playerPrice)
         setPurchasedPlayer([...purchasedPlayer, player])
+        
+        toast.success("Player Selected!", { theme: 'dark' })
     }
 
     return (
