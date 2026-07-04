@@ -4,16 +4,28 @@ import { useState } from 'react';
 
 const Player = ({ player, setAvailableBalance, balance }) => {
     const [isSelected, setSelected] = useState(false)
+
+    // balance Calculation:
+    const handleSelected = (player) => {
+        const playerPrice = Number(player.price.split('USD').join("").split(',').join(""))
+        if (balance < playerPrice) {
+            alert("No Money")
+            return;
+        }
+        setSelected(true)
+        setAvailableBalance(balance - playerPrice)
+    }
+
     return (
-        <div class="card bg-base-100 shadow-sm p-5 bg-white">
+        <div className="card bg-base-100 shadow-sm p-5 bg-white">
             <figure className="rounded-xl">
                 <img className='h-55 w-full object-cover'
                     src={player.playerImage} />
             </figure>
-            <div class="">
+            <div>
                 <div className="flex items-center gap-2 my-5">
                     <img className="h-7 w-7" src={profilePc} alt="" />
-                    <h2 class="card-title font-bold text-black">{player.playerName}</h2>
+                    <h2 className="card-title font-bold text-black">{player.playerName}</h2>
                 </div>
                 <div className="flex justify-between items-center mb-4 pb-3 border-b border-gray-500">
                     <div className="flex items-center gap-2">
@@ -32,10 +44,7 @@ const Player = ({ player, setAvailableBalance, balance }) => {
                 </div>
                 <div className="flex justify-between items-center">
                     <span className="font-semibold text-black">Price: $<span>{player.price}</span></span>
-                    <button disabled={isSelected} onClick={() => {
-                        setSelected(true)
-                        setAvailableBalance(balance - player.price.split('USD').join("").split(',').join(""))
-                    }}
+                    <button disabled={isSelected} onClick={() => handleSelected(player)}
                         className={` border-none text-black btn font-bold 
                     ${isSelected ? "bg-orange-200" : "bg-orange-500"}`}>
                         {isSelected === true ? "Selected" : "Choose Player"}</button>
