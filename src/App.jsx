@@ -4,6 +4,8 @@ import AvailablePlayers from './components/AvailablePlayers/AvailablePlayers'
 import Navbar from './components/Navbar/Navbar'
 import SelectedPlayers from './components/SelectedPlayers/SelectedPlayers'
 import { useState } from 'react'
+import { ToastContainer, toast } from 'react-toastify';
+
 
 // Fetch data from the API
 const fetchPlayers = fetch('/players.json').then(res => res.json())
@@ -51,6 +53,8 @@ function App() {
               ></AvailablePlayers></Suspense> : <SelectedPlayers
                 purchasedPlayer={purchasedPlayer} removeCart={removeCart}></SelectedPlayers>
           }
+
+          <ToastContainer position="top-center" autoClose={3000} />
 
         </div>
       </div>

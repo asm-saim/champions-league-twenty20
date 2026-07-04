@@ -1,6 +1,7 @@
 import profilePc from '../../assets/profile-picture.png'
 import flag from '../../assets/flag.png'
 import { useState } from 'react';
+import { toast } from 'react-toastify';
 
 const Player = ({ player, setAvailableBalance, balance, purchasedPlayer, setPurchasedPlayer }) => {
     const [isSelected, setSelected] = useState(false)
@@ -9,7 +10,7 @@ const Player = ({ player, setAvailableBalance, balance, purchasedPlayer, setPurc
     const handleSelected = (player) => {
         const playerPrice = parseInt(player.price.split('USD').join("").split(',').join(""))
         if (balance < playerPrice) {
-            alert("No Money")
+            toast.error("Insufficient coins to proceed.", { theme: 'dark' });
             return;
         }
         setSelected(true)
