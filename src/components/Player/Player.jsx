@@ -1,7 +1,9 @@
 import profilePc from '../../assets/profile-picture.png'
 import flag from '../../assets/flag.png'
+import { useState } from 'react';
 
 const Player = ({ player }) => {
+    const [isSelected, setSelected] = useState(false)
     return (
         <div class="card bg-base-100 shadow-sm p-5 bg-white">
             <figure className="rounded-xl">
@@ -30,7 +32,10 @@ const Player = ({ player }) => {
                 </div>
                 <div className="flex justify-between items-center">
                     <span className="font-semibold text-black">Price: $<span>{player.price}</span></span>
-                    <button className="btn font-bold bg-orange-500 border-none text-black">Choose Player</button>
+                    <button disabled={isSelected} onClick={() => setSelected(true)}
+                        className={` border-none text-black btn font-bold 
+                    ${isSelected ? "bg-orange-200" : "bg-orange-500"}`}>
+                        {isSelected === true ? "Selected" : "Choose Player"}</button>
                 </div>
 
             </div>
