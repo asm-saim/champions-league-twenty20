@@ -1,6 +1,7 @@
 // import React from 'react';
 
-const SelectedPlayers = () => {
+const SelectedPlayers = ({ purchasedPlayer }) => {
+    console.log("hello from selected section", purchasedPlayer)
     return (
         <div>
             <h1>selected</h1>

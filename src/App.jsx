@@ -15,6 +15,10 @@ function App() {
 
   // state declaration for calculation:
   const [balance, setAvailableBalance] = useState(5000000)
+
+  // state declaration for selected section:
+  const [purchasedPlayer, setPurchasedPlayer] = useState([])
+  // console.log("hello", purchasedPlayer)
   return (
     <>
       <div className='mx-auto'>
@@ -30,8 +34,11 @@ function App() {
           </div>
           {
             toggle === true ?
-              <Suspense fallback={<span className="loading loading-dots loading-xl"></span>}><AvailablePlayers balance={balance} setAvailableBalance={setAvailableBalance}
-                fetchPlayers={fetchPlayers}></AvailablePlayers></Suspense> : <SelectedPlayers></SelectedPlayers>
+              <Suspense fallback={<span className="loading loading-dots loading-xl"></span>}><AvailablePlayers fetchPlayers={fetchPlayers}
+                purchasedPlayer={purchasedPlayer} setPurchasedPlayer={setPurchasedPlayer}
+                balance={balance} setAvailableBalance={setAvailableBalance}
+              ></AvailablePlayers></Suspense> : <SelectedPlayers
+                purchasedPlayer={purchasedPlayer}></SelectedPlayers>
           }
 
         </div>

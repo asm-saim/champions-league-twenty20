@@ -2,7 +2,7 @@ import profilePc from '../../assets/profile-picture.png'
 import flag from '../../assets/flag.png'
 import { useState } from 'react';
 
-const Player = ({ player, setAvailableBalance, balance }) => {
+const Player = ({ player, setAvailableBalance, balance, purchasedPlayer, setPurchasedPlayer }) => {
     const [isSelected, setSelected] = useState(false)
 
     // balance Calculation:
@@ -14,6 +14,7 @@ const Player = ({ player, setAvailableBalance, balance }) => {
         }
         setSelected(true)
         setAvailableBalance(balance - playerPrice)
+        setPurchasedPlayer([...purchasedPlayer,player])
     }
 
     return (
