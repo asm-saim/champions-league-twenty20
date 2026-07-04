@@ -7,14 +7,14 @@ const Player = ({ player, setAvailableBalance, balance, purchasedPlayer, setPurc
 
     // balance Calculation:
     const handleSelected = (player) => {
-        const playerPrice = Number(player.price.split('USD').join("").split(',').join(""))
+        const playerPrice = parseInt(player.price.split('USD').join("").split(',').join(""))
         if (balance < playerPrice) {
             alert("No Money")
             return;
         }
         setSelected(true)
         setAvailableBalance(balance - playerPrice)
-        setPurchasedPlayer([...purchasedPlayer,player])
+        setPurchasedPlayer([...purchasedPlayer, player])
     }
 
     return (
@@ -28,14 +28,14 @@ const Player = ({ player, setAvailableBalance, balance, purchasedPlayer, setPurc
                     <img className="h-7 w-7" src={profilePc} alt="" />
                     <h2 className="card-title font-bold text-black">{player.playerName}</h2>
                 </div>
-                <div className="flex justify-between items-center mb-4 pb-3 border-b border-gray-500">
+                <div className="flex justify-between items-center mb-3 pb-3 border-b border-gray-500">
                     <div className="flex items-center gap-2">
                         <img className="w-7 h-7" src={flag} alt="" />
                         <span className="font-semibold text-gray-700">{player.origin}</span>
                     </div>
                     <p className="py-1 px-2 rounded-lg text-sm bg-orange-100 border-none text-black">{player.role}</p>
                 </div>
-                <div className="flex justify-between items-center mb-2">
+                <div className="flex justify-between items-center mb-1">
                     <span className="font-semibold text-black">Rating</span>
                     <span className="font-semibold text-gray-700">{player.rating}</span>
                 </div>

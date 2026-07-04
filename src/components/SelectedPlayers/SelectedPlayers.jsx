@@ -2,12 +2,12 @@
 
 import SelectedCards from "../SelectedCards/SelectedCards";
 
-const SelectedPlayers = ({ purchasedPlayer }) => {
-    console.log("hello from selected section", purchasedPlayer)
+const SelectedPlayers = ({ purchasedPlayer, removeCart }) => {
+    // console.log("hello from selected section", purchasedPlayer)
     return (
         <div>
             {
-                purchasedPlayer.map(player => <SelectedCards player={player}></SelectedCards>)
+                purchasedPlayer.map(player => <SelectedCards removeCart={removeCart} player={player}></SelectedCards>)
             }
         </div>
     );

@@ -19,13 +19,24 @@ function App() {
   // state declaration for selected section:
   const [purchasedPlayer, setPurchasedPlayer] = useState([])
   // console.log("hello", purchasedPlayer)
+
+  //declare function for remove selected card:
+
+  const removeCart = (remove) => {
+    const filteredAfterRemove =
+      purchasedPlayer.filter(leftPlayer => leftPlayer.playerName !== remove.playerName)
+    setPurchasedPlayer(filteredAfterRemove)
+    setAvailableBalance(balance + parseInt(remove.price.split('USD').join("").split(',').join("")))
+  }
   return (
     <>
       <div className='mx-auto'>
         <Navbar balance={balance}></Navbar>
         <div className='max-w-7xl mx-auto'>
           <div className='flex justify-between items-center my-5'>
-            <span className='font-bold text-xl'>Available Players</span>
+            <span className='font-bold text-xl'>
+              {toggle === true ? "Available Players" :
+                `Selected Players(${purchasedPlayer.length}/6)`}</span>
             <div className='flex text-base'>
               <button onClick={() => setToggle(true)} className={`btn rounded-l-lg border-none font-bold text-base ${toggle === true ? "bg-orange-500 text-black" : "'' text-white"}`}>Available</button>
               <button onClick={() => setToggle(false)} className={`btn rounded-r-lg border-none font-bold text-base ${toggle === false ? "bg-orange-500 text-black" :
@@ -38,7 +49,7 @@ function App() {
                 purchasedPlayer={purchasedPlayer} setPurchasedPlayer={setPurchasedPlayer}
                 balance={balance} setAvailableBalance={setAvailableBalance}
               ></AvailablePlayers></Suspense> : <SelectedPlayers
-                purchasedPlayer={purchasedPlayer}></SelectedPlayers>
+                purchasedPlayer={purchasedPlayer} removeCart={removeCart}></SelectedPlayers>
           }
 
         </div>
