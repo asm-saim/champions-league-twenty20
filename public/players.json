@@ -6,7 +6,7 @@
         "battingStyle": "Right-hand Batsman",
         "role": "Batsman",
         "rating": 9,
-        "price": "1,850,000"
+        "price": "1,850,000 USD"
     },
     {
         "playerImage": "https://i.ibb.co.com/tPcs8dz8/images-1.jpg",
@@ -15,7 +15,7 @@
         "battingStyle": "Right-hand Batsman",
         "role": "Wicketkeeper",
         "rating": 9.5,
-        "price": "2,000,000"
+        "price": "2,000,000 USD"
     },
     {
         "playerImage": "https://i.ibb.co.com/8DnZwbFB/max.jpg",
@@ -24,7 +24,7 @@
         "battingStyle": "Right-hand Batsman",
         "role": "All-rounder",
         "rating": 8.5,
-        "price": "1,600,000"
+        "price": "1,600,000 USD"
     },
     {
         "playerImage": "https://i.ibb.co.com/XZjSRCNZ/ben.jpg",
@@ -33,7 +33,7 @@
         "battingStyle": "Left-hand Batsman",
         "role": "All-rounder",
         "rating": 9,
-        "price": "1,800,000"
+        "price": "1,800,000 USD"
     },
     {
         "playerImage": "https://i.ibb.co.com/YB733BML/sakib.jpg",
@@ -42,7 +42,7 @@
         "battingStyle": "Left-hand Batsman",
         "role": "All-rounder",
         "rating": 8.5,
-        "price": "1,400,000"
+        "price": "1,400,000 USD"
     },
     {
         "playerImage": "https://i.ibb.co.com/Kpp4yj7h/fuf.jpg",
@@ -51,7 +51,7 @@
         "battingStyle": "Right-hand Batsman",
         "role": "Wicketkeeper",
         "rating": 8,
-        "price": "1,250,000"
+        "price": "1,250,000 USD"
     },
     {
         "playerImage": "https://i.ibb.co.com/XxSPR64C/babar.jpg",
@@ -60,7 +60,7 @@
         "battingStyle": "Right-hand Batsman",
         "role": "Batsman",
         "rating": 9,
-        "price": "1,900,000"
+        "price": "1,900,000 USD"
     },
     {
         "playerImage": "https://i.ibb.co.com/HpkxVfVB/moien.jpg",
@@ -69,7 +69,7 @@
         "battingStyle": "Left-hand Batsman",
         "role": "All-rounder",
         "rating": 8,
-        "price": "1,200,000"
+        "price": "1,200,000 USD"
     },
     {
         "playerImage": "https://i.ibb.co.com/hR6zXR4L/musi.jpg",
@@ -78,7 +78,7 @@
         "battingStyle": "Right-hand Batsman",
         "role": "Wicketkeeper",
         "rating": 7.5,
-        "price": "900,000"
+        "price": "900,000 USD"
     },
     {
         "playerImage": "https://i.ibb.co.com/hFrXHHzK/warner.jpg",
@@ -87,7 +87,7 @@
         "battingStyle": "Left-hand Batsman",
         "role": "Batsman",
         "rating": 8.5,
-        "price": "1,600,000"
+        "price": "1,600,000 USD"
     },
     {
         "playerImage": "https://i.ibb.co.com/5XggS3hL/Virat-Kohli.jpg",
@@ -96,7 +96,7 @@
         "battingStyle": "Right-hand Batsman",
         "role": "Batsman",
         "rating": 9,
-        "price": "1,900,000"
+        "price": "1,900,000 USD"
     },
     {
         "playerImage": "https://i.ibb.co.com/TMRNfDRF/nisem.jpg",
@@ -105,6 +105,6 @@
         "battingStyle": "Left-hand Batsman",
         "role": "All-rounder",
         "rating": 7.5,
-        "price": "950,000"
+        "price": "950,000 USD"
     }
 ]
