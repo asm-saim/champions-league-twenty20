@@ -100,20 +100,13 @@ The application provides an interactive experience where users can:
 
 ## UI Screenshots
 
-<table>
-  <tr>
-    <td align="center"><b>Home Page</b></td>
-    <td align="center"><b>Mobile View</b></td>
-  </tr>
-  <tr>
-    <td>
-      <img src="./src/assets/lg.png" alt="Home Page" width="500">
-    </td>
-    <td>
-      <img src="./src/assets/mobile.png" alt="Mobile View" width="220">
-    </td>
-  </tr>
-</table>
+### Home Page
+
+<img src="./src/assets/lg.png" width="800">
+
+### Mobile View
+
+<img src="./src/assets/mobile.png" width="250">
 
 ------------------------------------------------------------------------
 
