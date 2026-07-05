@@ -7,7 +7,7 @@ const AvailablePlayers = ({ fetchPlayers, balance, setAvailableBalance,
     const loadPromise = use(fetchPlayers)
     // console.log(loadPromise)
     return (
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-15 my-5 ">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-15 my-5 mx-5 lg:mx-0">
             {
                 loadPromise.map(player => <Player balance={balance}
                     setAvailableBalance={setAvailableBalance} player={player}
