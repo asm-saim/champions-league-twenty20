@@ -5,6 +5,7 @@ import Navbar from './components/Navbar/Navbar'
 import SelectedPlayers from './components/SelectedPlayers/SelectedPlayers'
 import { useState } from 'react'
 import { ToastContainer, toast } from 'react-toastify';
+import Footer from './components/Footer/Footer'
 
 
 // Fetch data from the API
@@ -57,6 +58,7 @@ function App() {
           <ToastContainer position="top-center" autoClose={3000} />
 
         </div>
+        <Footer></Footer>
       </div>
 
     </>

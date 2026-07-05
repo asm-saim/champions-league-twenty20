@@ -1,16 +1,119 @@
-# React + Vite
+<img src="./src/assets/logo-footer.png" width="100" style=""/>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Champions League Dream Team
 
-Currently, two official plugins are available:
+A responsive React application where users build their own dream cricket
+team by selecting players within a limited coin budget. The application
+features player selection validation, real-time coin management,
+interactive notifications, and a clean, responsive user interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+------------------------------------------------------------------------
 
-## React Compiler
+## Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Champions League Dream Team** allows users to create their ideal cricket squad by purchasing players using virtual coins.
 
-## Expanding the ESLint configuration
+The application provides an interactive experience where users can:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-   Earn coins from the banner section
+-   Browse available cricket players
+-   Select players within the available coin balance
+-   Prevent duplicate player selections
+-   Limit team size to **6 players**
+-   Remove selected players from the team
+-   Receive instant notifications using **React Toastify**
+-   Enjoy a fully responsive interface across desktop, tablet, and
+    mobile devices
+
+------------------------------------------------------------------------
+
+## Live Demo
+
+🔗 [View Live Demo](https://champions-league-twenty20.netlify.app/)
+
+------------------------------------------------------------------------
+
+## Tech Stack
+
+| Layer | Technology |
+|--------|------------|
+| Frontend | React.js |
+| Styling | Tailwind CSS, DaisyUI |
+| Notifications | React Toastify |
+| Language | JavaScript (ES6+) |
+| Data Source | Local JSON |
+| Build Tool | Vite |
+
+------------------------------------------------------------------------
+
+##  Features
+
+### Coin Management
+
+-   User starts with **0 coins**
+-   Click **Claim Free Credit** to earn coins
+-   Purchasing a player deducts the bidding price automatically
+
+### Available Players
+
+-   Display all players from a local JSON file
+-   Show player image, name, country, role, batting/bowling type, and
+    bidding price
+
+### Player Selection
+
+-   Purchase players using available coins
+-   Prevent purchases when coins are insufficient
+
+### Selected Players
+
+-   Toggle between **Available** and **Selected**
+-   Show selected player count
+-   Remove players from the selected list
+
+### Smart Validation
+
+-   Prevent duplicate player selection
+-   Maximum of **6 players**
+-   User-friendly notifications using **React Toastify**
+
+### Responsive Design
+
+-   Responsive Navbar
+-   Responsive Banner
+-   Responsive Player Cards
+-   Responsive Footer
+
+------------------------------------------------------------------------
+
+##  Key Highlights
+
+-   Built with React functional components
+-   Dynamic player rendering from JSON
+-   Real-time coin management
+-   Complete player selection validation
+-   React Toastify notifications
+-   Reusable component architecture
+-   Fully responsive UI
+
+------------------------------------------------------------------------
+
+##  Future Improvements
+
+-   Save selected players in Local Storage
+-   Search players
+-   Filter by role and country
+-   Sort by bidding price
+-   Dark mode
+-   Backend integration
+-   Team persistence
+-   Smooth animations
+
+------------------------------------------------------------------------
+
+## Author
+
+**A S M Saim**
+
+- GitHub: [@asm-saim](https://github.com/asm-saim)
+- LinkedIn: [A S M Saim](https://www.linkedin.com/in/asmsaim/)
