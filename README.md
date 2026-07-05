@@ -98,6 +98,21 @@ The application provides an interactive experience where users can:
 
 ------------------------------------------------------------------------
 
+## UI Screenshots
+
+<table>
+  <tr>
+    <td align="center"><b>Home Page</b></td>
+    <td align="center"><b>Mobile View</b></td>
+  </tr>
+  <tr>
+    <td><img src="./src/assets/lg.png" alt="Home Page"></td>
+    <td><img src="./src/assets/mobile.png" alt="Plant Cards Section"></td>
+  </tr>
+</table>
+
+------------------------------------------------------------------------
+
 ##  Future Improvements
 
 -   Save selected players in Local Storage
