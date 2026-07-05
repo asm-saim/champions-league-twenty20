@@ -35,8 +35,8 @@ function App() {
       <div className='mx-auto'>
         <Navbar balance={balance}></Navbar>
         <div className='max-w-7xl mx-auto'>
-          <div className='flex justify-between items-center my-5'>
-            <span className='font-bold text-xl'>
+          <div className='flex justify-between items-center my-5 mx-5 md:mx-0'>
+            <span className='font-bold text-sm md:text-xl'>
               {toggle === true ? "Available Players" :
                 `Selected Players(${purchasedPlayer.length}/6)`}</span>
             <div className='flex text-base'>
