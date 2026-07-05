@@ -106,8 +106,12 @@ The application provides an interactive experience where users can:
     <td align="center"><b>Mobile View</b></td>
   </tr>
   <tr>
-    <td><img src="./src/assets/lg.png" alt="Home Page"></td>
-    <td><img src="./src/assets/mobile.png" alt="Plant Cards Section"></td>
+    <td>
+      <img src="./src/assets/lg.png" alt="Home Page" width="500">
+    </td>
+    <td>
+      <img src="./src/assets/mobile.png" alt="Mobile View" width="220">
+    </td>
   </tr>
 </table>
 
